@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-string largest_odd( string s){
+string largest_odd( string &s){
     int n = s.size();
     int end;
     for (int i = n-1 ; i >= 0 ; i--){
