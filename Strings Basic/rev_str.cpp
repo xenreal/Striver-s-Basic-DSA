@@ -2,13 +2,10 @@
 using namespace std;
 
 int main() {
-    vector<char> str;
-    char ch;
+    string str;
     
     cout << "Enter a string: ";
-    while (cin.get(ch) && ch != '\n') {
-        str.push_back(ch);
-    }
+    getline(cin , str);
 
     int n = str.size();
     
